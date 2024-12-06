@@ -58,7 +58,7 @@ const Dashboard = () => {
   };
 
   const handleViewClick = (id: string) => {
-    navigate(`${path.viewFilm}?${id}/page`);
+    navigate(`${path.viewFilm}?${id}`);
   };
 
   const handleSort = (field: string) => {
